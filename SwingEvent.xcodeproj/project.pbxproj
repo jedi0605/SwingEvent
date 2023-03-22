@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385CBD4229B3326200C6A10B /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CBD4129B3326200C6A10B /* EventView.swift */; };
+		385CBD4429B3327700C6A10B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CBD4329B3327700C6A10B /* AboutView.swift */; };
+		385CBD4629B3328200C6A10B /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CBD4529B3328200C6A10B /* ScheduleView.swift */; };
+		385CBD4929B334D100C6A10B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CBD4829B334D100C6A10B /* ModelData.swift */; };
+		385CBD4F29B3351E00C6A10B /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 385CBD4D29B3351E00C6A10B /* hikeData.json */; };
+		385CBD5029B3351E00C6A10B /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 385CBD4E29B3351E00C6A10B /* landmarkData.json */; };
+		385CBD5229B3353900C6A10B /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CBD5129B3353900C6A10B /* Landmark.swift */; };
+		385CBD5529B3382600C6A10B /* ScheduleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CBD5429B3382600C6A10B /* ScheduleRow.swift */; };
+		385CBD5729B338B500C6A10B /* ScheduleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385CBD5629B338B500C6A10B /* ScheduleDetail.swift */; };
 		3862DF8B29B22B56001A35A1 /* SwingEventApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862DF8A29B22B56001A35A1 /* SwingEventApp.swift */; };
 		3862DF8D29B22B56001A35A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862DF8C29B22B56001A35A1 /* ContentView.swift */; };
 		3862DF8F29B22B58001A35A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3862DF8E29B22B58001A35A1 /* Assets.xcassets */; };
@@ -16,6 +25,9 @@
 		3862DFA129B22B58001A35A1 /* SwingEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862DFA029B22B58001A35A1 /* SwingEventTests.swift */; };
 		3862DFAB29B22B58001A35A1 /* SwingEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862DFAA29B22B58001A35A1 /* SwingEventUITests.swift */; };
 		3862DFAD29B22B58001A35A1 /* SwingEventUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862DFAC29B22B58001A35A1 /* SwingEventUITestsLaunchTests.swift */; };
+		38C569FB29C9E8E400B39B2C /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C569FA29C9E8E400B39B2C /* EventData.swift */; };
+		38D9E54B29B48F61004147F9 /* ScheduleDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9E54A29B48F61004147F9 /* ScheduleDate.swift */; };
+		38D9E54D29B49953004147F9 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9E54C29B49953004147F9 /* EventListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		385CBD4129B3326200C6A10B /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		385CBD4329B3327700C6A10B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		385CBD4529B3328200C6A10B /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		385CBD4829B334D100C6A10B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		385CBD4D29B3351E00C6A10B /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		385CBD4E29B3351E00C6A10B /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		385CBD5129B3353900C6A10B /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		385CBD5429B3382600C6A10B /* ScheduleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
+		385CBD5629B338B500C6A10B /* ScheduleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetail.swift; sourceTree = "<group>"; };
 		3862DF8729B22B56001A35A1 /* SwingEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3862DF8A29B22B56001A35A1 /* SwingEventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingEventApp.swift; sourceTree = "<group>"; };
 		3862DF8C29B22B56001A35A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +69,9 @@
 		3862DFA629B22B58001A35A1 /* SwingEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwingEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3862DFAA29B22B58001A35A1 /* SwingEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingEventUITests.swift; sourceTree = "<group>"; };
 		3862DFAC29B22B58001A35A1 /* SwingEventUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingEventUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38C569FA29C9E8E400B39B2C /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		38D9E54A29B48F61004147F9 /* ScheduleDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDate.swift; sourceTree = "<group>"; };
+		38D9E54C29B49953004147F9 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +99,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385CBD4029B3324D00C6A10B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				385CBD5329B3380900C6A10B /* Schedule */,
+				385CBD4129B3326200C6A10B /* EventView.swift */,
+				385CBD4329B3327700C6A10B /* AboutView.swift */,
+				385CBD4529B3328200C6A10B /* ScheduleView.swift */,
+				38D9E54C29B49953004147F9 /* EventListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		385CBD4729B334AB00C6A10B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				385CBD4829B334D100C6A10B /* ModelData.swift */,
+				385CBD5129B3353900C6A10B /* Landmark.swift */,
+				38C569FA29C9E8E400B39B2C /* EventData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		385CBD4A29B334E900C6A10B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				385CBD4D29B3351E00C6A10B /* hikeData.json */,
+				385CBD4E29B3351E00C6A10B /* landmarkData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		385CBD5329B3380900C6A10B /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				385CBD5429B3382600C6A10B /* ScheduleRow.swift */,
+				385CBD5629B338B500C6A10B /* ScheduleDetail.swift */,
+				38D9E54A29B48F61004147F9 /* ScheduleDate.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
 		3862DF7E29B22B56001A35A1 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +163,9 @@
 		3862DF8929B22B56001A35A1 /* SwingEvent */ = {
 			isa = PBXGroup;
 			children = (
+				385CBD4A29B334E900C6A10B /* Resource */,
+				385CBD4729B334AB00C6A10B /* Model */,
+				385CBD4029B3324D00C6A10B /* View */,
 				3862DF8A29B22B56001A35A1 /* SwingEventApp.swift */,
 				3862DF8C29B22B56001A35A1 /* ContentView.swift */,
 				3862DF8E29B22B58001A35A1 /* Assets.xcassets */,
@@ -238,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3862DF9229B22B58001A35A1 /* Preview Assets.xcassets in Resources */,
+				385CBD5029B3351E00C6A10B /* landmarkData.json in Resources */,
+				385CBD4F29B3351E00C6A10B /* hikeData.json in Resources */,
 				3862DF8F29B22B58001A35A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +333,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D9E54B29B48F61004147F9 /* ScheduleDate.swift in Sources */,
 				3862DF9429B22B58001A35A1 /* Persistence.swift in Sources */,
+				38C569FB29C9E8E400B39B2C /* EventData.swift in Sources */,
 				3862DF9729B22B58001A35A1 /* SwingEvent.xcdatamodeld in Sources */,
 				3862DF8D29B22B56001A35A1 /* ContentView.swift in Sources */,
 				3862DF8B29B22B56001A35A1 /* SwingEventApp.swift in Sources */,
+				385CBD4629B3328200C6A10B /* ScheduleView.swift in Sources */,
+				385CBD5229B3353900C6A10B /* Landmark.swift in Sources */,
+				385CBD4929B334D100C6A10B /* ModelData.swift in Sources */,
+				385CBD4429B3327700C6A10B /* AboutView.swift in Sources */,
+				385CBD4229B3326200C6A10B /* EventView.swift in Sources */,
+				385CBD5729B338B500C6A10B /* ScheduleDetail.swift in Sources */,
+				38D9E54D29B49953004147F9 /* EventListView.swift in Sources */,
+				385CBD5529B3382600C6A10B /* ScheduleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
